@@ -3,7 +3,7 @@
   "displayName": "Green Tea Theme",
   "description": "A dark green theme with brown and gold accents, the color of tea leaves.",
   "publisher": "danicaj3w",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.94.0"
   },
