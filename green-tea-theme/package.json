@@ -2,10 +2,22 @@
   "name": "green-tea-theme",
   "displayName": "Green Tea Theme",
   "description": "A dark green theme with brown and gold accents, the color of tea leaves.",
+  "publisher": "danicaj3w",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.94.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danicaj3w/green-tea-theme.git"
+},
+"keywords": [
+    "Green",
+    "Dark theme",
+    "Theme",
+    "Green Tea Theme",
+    "Tea"
+],
   "categories": [
     "Themes"
   ],
