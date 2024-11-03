@@ -1,7 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
-	"name" : "Green Tea - Default",
+    "name" : "Green Tea - Italicized",
 	"colors": {
 		"actionBar.toggledBackground": "#383a49",
 		"activityBar.activeBorder": "#dacfb5",
@@ -1566,6 +1566,15 @@
 			],
 			"settings": {
 				"foreground": "#A87466"
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"storage.type"
+			],
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{

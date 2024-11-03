@@ -3,7 +3,7 @@
   "displayName": "Green Tea Theme",
   "description": "A dark green theme with brown and gold accents, the color of tea leaves.",
   "publisher": "danicaj3w",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -24,10 +24,16 @@
   "contributes": {
     "themes": [
       {
-        "label": "Green Tea Theme",
+        "label": "Green Tea - Default",
         "uiTheme": "vs-dark",
         "path": "./themes/Green Tea Theme-color-theme.json"
+      },
+      {
+        "label": "Green Tea - Italicized",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Green Tea Theme-color-theme-2.json"
       }
+
     ]
   }
 }
