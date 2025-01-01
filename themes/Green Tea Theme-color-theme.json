@@ -1,7 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
-	"name" : "Green Tea - Default",
+	"name": "Green Tea - Default",
 	"colors": {
 		"actionBar.toggledBackground": "#383a49",
 		"activityBar.activeBorder": "#dacfb5",
@@ -45,7 +45,7 @@
 		"debugTokenExpression.value": "#f1c5a5",
 		"debugToolBar.background": "#151a18",
 		"debugView.valueChangedHighlight": "#ace172",
-		"descriptionForeground": "#9d9d9d",
+		"descriptionForeground": "#bca674",
 		"diffEditor.border": "#9a8856",
 		"dropdown.background": "#171d17",
 		"dropdown.border": "#3c3c3c",
@@ -257,6 +257,9 @@
 		//"breadcrumb.focusForeground": "#dde8d0",
 		//"breadcrumbPicker.background": "#151a18",
 		//"button.separator": "#d7e5c566",
+		//"chart.axis": "#bfbfbf66",
+		//"chart.guide": "#bfbfbf33",
+		//"chart.line": "#236b8e",
 		//"charts.blue": "#3794ff",
 		//"charts.foreground": "#cadbb5",
 		//"charts.green": "#89d185",
@@ -446,6 +449,7 @@
 		//"extensionIcon.sponsorForeground": "#d758b3",
 		//"extensionIcon.starForeground": "#ff8e00",
 		//"extensionIcon.verifiedForeground": "#d0ac6a",
+		//"git.blame.editorDecorationForeground": "#999999",
 		//"gitDecoration.conflictingResourceForeground": "#e4676b",
 		//"gitDecoration.submoduleResourceForeground": "#8db9e2",
 		//"inlineChat.background": "#151a18",
@@ -459,11 +463,15 @@
 		//"inlineChatInput.focusBorder": "#c08e6c",
 		//"inlineChatInput.placeholderForeground": "#688757",
 		//"inlineEdit.border": "#c2bf9646",
-		//"inlineEdit.indicator.background": "#151a18",
-		//"inlineEdit.indicator.border": "#454545",
-		//"inlineEdit.indicator.foreground": "#89a06d",
+		//"inlineEdit.indicator.background": "#849759",
+		//"inlineEdit.indicator.border": "#d7e5c566",
+		//"inlineEdit.indicator.foreground": "#d7e5c5",
 		//"inlineEdit.modifiedBackground": "#9ccc2c14",
+		//"inlineEdit.modifiedChangedLineBackground": "#00000000",
+		//"inlineEdit.modifiedChangedTextBackground": "#9ccc2c33",
 		//"inlineEdit.originalBackground": "#ff000014",
+		//"inlineEdit.originalChangedLineBackground": "#00000000",
+		//"inlineEdit.originalChangedTextBackground": "#ff000033",
 		//"inputOption.activeForeground": "#ffffff",
 		//"inputOption.hoverBackground": "#5a5d5e80",
 		//"inputValidation.errorBackground": "#5a1d1d",
@@ -714,8 +722,9 @@
 		//"testing.iconSkipped.retired": "#848484b3",
 		//"testing.iconUnset": "#848484",
 		//"testing.iconUnset.retired": "#848484b3",
-		//"testing.message.error.decorationForeground": "#eb7f64",
-		//"testing.message.error.lineBackground": "#ff00001a",
+		//"testing.message.error.badgeBackground": "#f14c4c",
+		//"testing.message.error.badgeBorder": "#f14c4c",
+		//"testing.message.error.badgeForeground": "#000000",
 		//"testing.message.info.decorationForeground": "#cadbb580",
 		//"testing.messagePeekBorder": "#3794ff",
 		//"testing.messagePeekHeaderBackground": "#3794ff1a",
@@ -809,12 +818,14 @@
 		//"panelSectionHeader.border": null,
 		//"panelSectionHeader.foreground": null,
 		//"panelStickyScroll.border": null,
+		//"panelTitle.border": null,
 		//"peekViewEditor.matchHighlightBorder": null,
 		//"quickInput.list.focusBackground": null,
 		//"radio.inactiveBackground": null,
 		//"radio.inactiveForeground": null,
 		//"searchEditor.findMatchBorder": null,
 		//"sideBarStickyScroll.border": null,
+		//"sideBarTitle.border": null,
 		//"tab.hoverBorder": null,
 		//"tab.unfocusedHoverBorder": null,
 		//"terminal.findMatchBorder": null,
@@ -822,6 +833,7 @@
 		//"terminal.selectionForeground": null,
 		//"terminalStickyScroll.background": null,
 		//"terminalStickyScroll.border": null,
+		//"testing.message.error.lineBackground": null,
 		//"testing.message.info.lineBackground": null,
 		//"toolbar.hoverOutline": null,
 		//"welcomePage.background": null,
@@ -1487,7 +1499,9 @@
 				"constant.language.json",
 				"entity.name.scope-resolution.cpp",
 				"storage.modifier.c",
-				"entity.name.namespace"
+				"storage.type.function.arrow.js",
+				"entity.name.namespace",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#D78F5F"
@@ -1502,7 +1516,9 @@
 				"keyword.operator.assignment.cpp",
 				"keyword.operator.arithmetic.cpp",
 				"punctuation.terminator.statement.cpp",
-				"entity.name.function.preprocessor.c"
+				"entity.name.function.preprocessor.c",
+				"variable.other.constant.object.js",
+				"support.variable.js"
 			],
 			"settings": {
 				"foreground": "#CADBB5"
@@ -1541,8 +1557,7 @@
 		},
 		{
 			"scope": [
-				"entity.name.tag.css",
-				"entity.name.tag.html",
+				"entity.name.tag",
 				"variable.language.this.cpp"
 			],
 			"settings": {
@@ -1554,7 +1569,8 @@
 				"entity.name.function.preprocessor.cpp",
 				"support.type.property-name.css",
 				"storage.modifier.java",
-				"markup.bold.markdown"
+				"markup.bold.markdown",
+				"punctuation.definition.tag"
 			],
 			"settings": {
 				"foreground": "#83CD61"
